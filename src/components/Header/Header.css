@@ -1,0 +1,42 @@
+header {
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+}
+
+.menuNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: var(--title-font);
+}
+
+.menuItem:hover {
+    color: var(--laranja);
+}
+
+.menuItem:first-child {
+    margin-left: 34px;
+}
+
+.menuItem:nth-child(5) {
+    margin-right: 34px;
+}
+
+.menuItemLogo {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 36px;
+    font-family: var(--title-font);
+    font-weight: bold;
+    padding: 8px;
+}
+
+.menuItemLogo:hover {
+    color: var(--laranja);
+}
